@@ -1,6 +1,7 @@
 import json
 import datetime
 import requests
+import os
 from flask import Flask,render_template,request
 app=Flask(__name__)
 
@@ -32,8 +33,11 @@ def covid():
         dictdata =None
         return render_template('covidinfo.html',covidinfo=dictdata)
 
-app.run()
+#app.run()
 
+port =int(os.environ.get("PORT",5000))
+if __name__== "__main__":
+    app.run(port=port)
 
 # create app in heroku ----
             #app-name: bhaskarcovid-app
