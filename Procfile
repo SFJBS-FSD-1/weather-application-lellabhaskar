@@ -1,1 +1,1 @@
-web: gunicogit rn covidApp:appgit
+web: gunicogit covidApp:app
