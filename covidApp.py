@@ -34,8 +34,13 @@ def covid():
 
 app.run()
 
+
+# create app in heroku ----
+            #app-name: bhaskarcovid-app
+
+# heroku git:remote -a bhaskarcovid-app
 #heroku login
 #git init
-# git status
+# git statusgit commit -am "make it better"
 #git add .
 #git commit -am "make it better"
