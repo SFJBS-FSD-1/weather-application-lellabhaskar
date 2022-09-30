@@ -12,7 +12,8 @@ def weather():
     # else:
     #     city='hyderabad'
         print(city)
-        api='997ea79e1c9575bd4f087cf90e68205d'
+        #api='997ea79e1c9575bd4f087cf90e68205d'
+        api='c8d3cc0516e6dc92763c91ec42508c39'
         #url="http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api
         url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + api+"&units=metric"
         print(url)
